@@ -36,6 +36,14 @@ export const anvilSepolia = defineAnvil({
   port: 8845,
 })
 
+export const anvilMoksha = defineAnvil({
+  chain: moksha,
+  forkUrl: getEnv('VITE_ANVIL_FORK_URL_MOKSHA', 'https://rpc.moksha.vana.org'),
+  forkBlockNumber: 3192880n,
+  noMining: true,
+  port: 8945,
+})
+
 export const anvilOptimism = defineAnvil({
   chain: optimism,
   forkUrl: getEnv(
