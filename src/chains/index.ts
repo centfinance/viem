@@ -348,6 +348,7 @@ export { mintSepoliaTestnet } from './definitions/mintSepoliaTestnet.js'
 export { mitosisTestnet } from './definitions/mitosisTestnet.js'
 export { mode } from './definitions/mode.js'
 export { modeTestnet } from './definitions/modeTestnet.js'
+export { moksha } from './definitions/moksha.js';
 export { monadTestnet } from './definitions/monadTestnet.js'
 export { moonbaseAlpha } from './definitions/moonbaseAlpha.js'
 export { moonbeam } from './definitions/moonbeam.js'
