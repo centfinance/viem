@@ -3340,7 +3340,6 @@ packages:
 
   bun@1.1.30:
     resolution: {integrity: sha512-ysRL1pq10Xba0jqVLPrKU3YIv0ohfp3cTajCPtpjCyppbn3lfiAVNpGoHfyaxS17OlPmWmR67UZRPw/EueQuug==}
-    cpu: [arm64, x64]
     os: [darwin, linux, win32]
     hasBin: true
 
@@ -6241,6 +6240,14 @@ packages:
       typescript:
         optional: true
 
+  viem@2.31.3:
+    resolution: {integrity: sha512-q3JGI5QFB4LEiLfg9f2ZwjUygAn2W0wMLtj++7E/L2i8Y7zKAkR4TEEOhwBn7gyYXpuc7f1vfd26PJbkEKuj5w==}
+    peerDependencies:
+      typescript: '>=5.0.4'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
   viem@file:src:
     resolution: {directory: src, type: directory}
     peerDependencies:
@@ -7771,7 +7778,7 @@ snapshots:
       pino-pretty: 10.3.1
       prom-client: 14.2.0
       type-fest: 4.39.0
-      viem: 2.31.2(typescript@5.8.3)(zod@3.23.8)
+      viem: 2.31.3(typescript@5.8.3)(zod@3.23.8)
       yargs: 17.7.2
       zod: 3.23.8
       zod-validation-error: 1.5.0(zod@3.23.8)
@@ -13031,7 +13038,7 @@ snapshots:
       - utf-8-validate
       - zod
 
-  viem@2.31.2(typescript@5.8.3)(zod@3.23.8):
+  viem@2.31.3(typescript@5.8.3)(zod@3.23.8):
     dependencies:
       '@noble/curves': 1.9.2
       '@noble/hashes': 1.8.0
